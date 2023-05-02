@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
+import Filters from './components/Filters';
+import TableWars from './components/TableWars';
 
 function App() {
   return (
-    <span>Hello, App!</span>
+    <div>
+      <h1>Star Wars Planest</h1>
+      <Filters />
+      <TableWars />
+    </div>
   );
 }
 
